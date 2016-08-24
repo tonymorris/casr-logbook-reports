@@ -9,7 +9,7 @@ module Data.Aviation.Casr.Logbook.Reports.FlightTimeReport(
 
 import Control.Category((.))
 import Control.Lens(makeClassy, (^.))
-import Data.Aviation.Casr.Logbook
+import Data.Aviation.Casr.Logbook.Types
   (
     TimeAmount
   , Aviator

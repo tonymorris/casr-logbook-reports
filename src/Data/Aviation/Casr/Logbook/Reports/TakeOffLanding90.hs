@@ -6,7 +6,7 @@ module Data.Aviation.Casr.Logbook.Reports.TakeOffLanding90(
 ) where
 
 import Control.Lens(makeClassy)
-import Data.Aviation.Casr.Logbook(FlightPoint)
+import Data.Aviation.Casr.Logbook.Types(FlightPoint)
 import Data.Eq(Eq)
 import Data.Ord(Ord)
 import Data.Time(Day)
